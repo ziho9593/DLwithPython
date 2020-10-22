@@ -1,6 +1,8 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2020.10.20 [문자열 내림차순으로 배치하기](https://ziho-world.tistory.com/14)
+- 2020.10.20 [3진법 뒤집기](https://ziho-world.tistory.com/13)
 - 2020.10.12 [K번째수](https://ziho-world.tistory.com/12)
 - 2020.10.08 [문자열 내 p와 y의 개수](https://ziho-world.tistory.com/11)
 - 2020.10.08 [나누어 떨어지는 숫자 배열](https://ziho-world.tistory.com/10)
