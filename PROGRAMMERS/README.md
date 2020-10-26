@@ -1,6 +1,7 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2020.10.24 [예산](https://ziho-world.tistory.com/15)
 - 2020.10.20 [문자열 내림차순으로 배치하기](https://ziho-world.tistory.com/14)
 - 2020.10.20 [3진법 뒤집기](https://ziho-world.tistory.com/13)
 - 2020.10.12 [K번째수](https://ziho-world.tistory.com/12)
@@ -14,4 +15,4 @@
 - 2020.08.27 [크레인 인형뽑기 게임](https://ziho-world.tistory.com/2)
 
 ## LEVEL 2
-- 2020.09.01 [N진수 게임](https://ziho-world.tistory.com/5)
+- 2020.09.01 [N진수 게임](https://ziho-world.tistory.com/5) 
