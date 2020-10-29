@@ -1,6 +1,8 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2020.10.28 [정수 제곱근 판별](https://ziho-world.tistory.com/17)
+- 2020.10.28 [x만큼 간격이 있는 n개의 숫자](https://ziho-world.tistory.com/16)
 - 2020.10.24 [예산](https://ziho-world.tistory.com/15)
 - 2020.10.20 [문자열 내림차순으로 배치하기](https://ziho-world.tistory.com/14)
 - 2020.10.20 [3진법 뒤집기](https://ziho-world.tistory.com/13)
