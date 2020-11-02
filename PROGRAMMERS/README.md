@@ -1,6 +1,8 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2020.10.31 [시저 암호](https://ziho-world.tistory.com/19)
+- 2020.10.31 [이상한 문자 만들기](https://ziho-world.tistory.com/18)
 - 2020.10.28 [정수 제곱근 판별](https://ziho-world.tistory.com/17)
 - 2020.10.28 [x만큼 간격이 있는 n개의 숫자](https://ziho-world.tistory.com/16)
 - 2020.10.24 [예산](https://ziho-world.tistory.com/15)
