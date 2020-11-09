@@ -1,6 +1,7 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2020.11.07 [내적](https://ziho-world.tistory.com/22)
 - 2020.11.04 [하샤드 수](https://ziho-world.tistory.com/21)
 - 2020.11.03 [콜라츠 추측](https://ziho-world.tistory.com/20)
 - 2020.10.31 [시저 암호](https://ziho-world.tistory.com/19)
