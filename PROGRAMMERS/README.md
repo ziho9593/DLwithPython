@@ -1,6 +1,8 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2020.11.13 [약수의 합](https://ziho-world.tistory.com/24)
+- 2020.11.11 [행렬의 덧셈](https://ziho-world.tistory.com/23)
 - 2020.11.07 [내적](https://ziho-world.tistory.com/22)
 - 2020.11.04 [하샤드 수](https://ziho-world.tistory.com/21)
 - 2020.11.03 [콜라츠 추측](https://ziho-world.tistory.com/20)
