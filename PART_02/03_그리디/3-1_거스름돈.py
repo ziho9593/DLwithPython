@@ -3,8 +3,8 @@ count = 0
 
 coins = [500, 100, 50, 10]
 
-for c in coins:
-    count += n // c
-    n %= c
+for coin in coins:
+    count += n // coin
+    n %= coin
 
 print(count)
