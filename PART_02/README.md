@@ -12,4 +12,6 @@
 4-3. [왕실의 나이트](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/04_%EA%B5%AC%ED%98%84/4-3_%EC%99%95%EC%8B%A4%EC%9D%98_%EB%82%98%EC%9D%B4%ED%8A%B8.md)  
 4-4. [게임 개발](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/04_%EA%B5%AC%ED%98%84/4-4_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C.md)
 
-### CHAPTER 05 : [DFS/BFS]()
+### CHAPTER 05 : [DFS/BFS](https://ziho-world.tistory.com/30)
+5-1. [음료수 얼려 먹기](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/05_DFS%26BFS/5-1_%EC%9D%8C%EB%A3%8C%EC%88%98_%EC%96%BC%EB%A0%A4_%EB%A8%B9%EA%B8%B0.md)  
+5-2. [미로 탈출](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/05_DFS%26BFS/5-2_%EB%AF%B8%EB%A1%9C_%ED%83%88%EC%B6%9C.md)
