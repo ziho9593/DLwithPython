@@ -15,3 +15,8 @@
 ### CHAPTER 05 : [DFS/BFS](https://ziho-world.tistory.com/30)
 5-1. [음료수 얼려 먹기](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/05_DFS%26BFS/5-1_%EC%9D%8C%EB%A3%8C%EC%88%98_%EC%96%BC%EB%A0%A4_%EB%A8%B9%EA%B8%B0.md)  
 5-2. [미로 탈출](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/05_DFS%26BFS/5-2_%EB%AF%B8%EB%A1%9C_%ED%83%88%EC%B6%9C.md)
+
+### CHAPTER 06 : [정렬 (Sorting)](https://ziho-world.tistory.com/31)
+6-1. [위에서 아래로](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/06_%EC%A0%95%EB%A0%AC/6-1_%EC%9C%84%EC%97%90%EC%84%9C_%EC%95%84%EB%9E%98%EB%A1%9C.md)  
+6-2. [성적이 낮은 순서로 학생 출력하기](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/06_%EC%A0%95%EB%A0%AC/6-2_%EC%84%B1%EC%A0%81%EC%9D%B4_%EB%82%AE%EC%9D%80_%EC%88%9C%EC%84%9C%EB%A1%9C_%ED%95%99%EC%83%9D_%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.md)  
+6-3. [두 배열의 원소 교체](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/06_%EC%A0%95%EB%A0%AC/6-3_%EB%91%90_%EB%B0%B0%EC%97%B4%EC%9D%98_%EC%9B%90%EC%86%8C_%EA%B5%90%EC%B2%B4.md)
