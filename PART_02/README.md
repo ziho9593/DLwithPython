@@ -20,3 +20,7 @@
 6-1. [위에서 아래로](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/06_%EC%A0%95%EB%A0%AC/6-1_%EC%9C%84%EC%97%90%EC%84%9C_%EC%95%84%EB%9E%98%EB%A1%9C.md)  
 6-2. [성적이 낮은 순서로 학생 출력하기](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/06_%EC%A0%95%EB%A0%AC/6-2_%EC%84%B1%EC%A0%81%EC%9D%B4_%EB%82%AE%EC%9D%80_%EC%88%9C%EC%84%9C%EB%A1%9C_%ED%95%99%EC%83%9D_%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.md)  
 6-3. [두 배열의 원소 교체](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/06_%EC%A0%95%EB%A0%AC/6-3_%EB%91%90_%EB%B0%B0%EC%97%B4%EC%9D%98_%EC%9B%90%EC%86%8C_%EA%B5%90%EC%B2%B4.md)
+
+### CHAPTER 07 : [이진 탐색 (Binary Search)](https://ziho-world.tistory.com/32)
+7-1. [부품 찾기](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/07_%EC%9D%B4%EC%A7%84_%ED%83%90%EC%83%89/7-1_%EB%B6%80%ED%92%88_%EC%B0%BE%EA%B8%B0.md)  
+7-2. [떡볶이 떡 만들기](https://github.com/ziho9593/CTwithPython/blob/master/PART_02/07_%EC%9D%B4%EC%A7%84_%ED%83%90%EC%83%89/7-2_%EB%96%A1%EB%B3%B6%EC%9D%B4_%EB%96%A1_%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
