@@ -11,14 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-    
     
     @IBAction func Hello(_ sender: Any) {
-        print("Hello")
+        let alret = UIAlertController(title: "Hello", message: "My First App!!", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alret.addAction(action)
+        present(alret, animated: true, completion: nil)
     }
-    
-    
 }
-
