@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func Hello(_ sender: Any) {
+    @IBAction func showAlret(_ sender: Any) {
         let alret = UIAlertController(title: "Hello", message: "My First App!!", preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         alret.addAction(action)

@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="Hello:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VFG-bx-OHk"/>
+                                    <action selector="showAlret:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lmr-2P-3VX"/>
                                 </connections>
                             </button>
                         </subviews>
