@@ -20,9 +20,10 @@ class ViewController: UIViewController {
     
     @IBAction func showAlret(_ sender: Any) {
         let message = "가격은 \(currentValue) 입니다."
-    
         let alret = UIAlertController(title: "Hello", message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        let action = UIAlertAction(title: "OK", style: .default, handler: { action in
+            self.refresh()
+        })
         alret.addAction(action)
         present(alret, animated: true, completion: nil)
         refresh()
