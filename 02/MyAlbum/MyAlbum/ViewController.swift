@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         })
         alret.addAction(action)
         present(alret, animated: true, completion: nil)
-        refresh()
     }
     
     func refresh() {
