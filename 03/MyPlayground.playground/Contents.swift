@@ -28,3 +28,63 @@ let y2 = coordinatesNamed.y
 let (x3, y3) = coordinatesNamed
 x3
 y3
+
+
+// --- Boolean
+
+let yes = true
+let no = false
+
+let isFourGreaterThanFive = 4 > 5
+
+if isFourGreaterThanFive {
+    print("---> 참")
+} else {
+    print("---> 거짓")
+}
+
+//if 조건..... {
+//    // 조건이 참인 경우에 수행하는 코드
+//} else {
+//    // 그렇지 않은 경우의 코드
+//}
+
+
+let a = 5
+let b = 10
+
+if a > b {
+    print("---> a가 크다")
+} else {
+    print("---> b가 크다")
+}
+
+
+let name1 = "Jin"
+let name2 = "Jason"
+
+let isTwoNameSame = name1 == name2
+
+if isTwoNameSame {
+    print("---> 이름이 같다")
+} else {
+    print("---> 이름이 다르다")
+}
+
+
+let isJason = name2 == "Jasong"
+let isMale = true
+
+let JasonAndMale = isJason && isMale
+let JasonOrMale = isJason || isMale
+
+//let greatingMessage: String
+//if isJason {
+//    greatingMessage = "Hello Jason"
+//} else {
+//    greatingMessage = "Hello Somebody"
+//}
+//print("Msg: \(greatingMessage)")
+
+let greatingMessage: String = isJason ? "Hello Jason" : "Hello Somebody"
+print("Msg: \(greatingMessage)")
