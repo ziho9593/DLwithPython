@@ -1,8 +1,15 @@
 import UIKit
 
 // 도전과제
+
+// CustomStirngConvertible
+
 // 1. 강의 이름, 강사 이름, 학생 수를 가지는 Struct 만들기 (Lecture)
-struct Lecture {
+struct Lecture: CustomStringConvertible {
+    var description: String {
+        return "Title: \(name), Instructor: \(instructor)"
+    }
+    
     let name: String
     let instructor: String
     let numOfStudent: Int
@@ -17,7 +24,7 @@ func printLectureName(from instructor: String, lectures: [Lecture]) {
         if instructor == lecture.instructor {
             lectureName = lecture.name
         }
-    }
+    } 
     
 //    let lectureName = lectures.first { $0.instructor == instructor}?.name ?? ""
     print("아 그 강사님 강의는요: \(lectureName)")
@@ -33,3 +40,5 @@ let lectures = [lecture1, lecture2, lecture3]
 printLectureName(from: "Jack", lectures: lectures)
 printLectureName(from: "Lily", lectures: lectures)
 printLectureName(from: "Jim", lectures: lectures)
+
+print(lecture1)
