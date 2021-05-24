@@ -1,0 +1,51 @@
+## Chapter 08. Swift Class
+- 관계 있는 것들을 묶어서 표현 (Object = Data + Method)
+- Object -> Structure vs. Class, Data -> Property, Method -> Method
+- Structure와 Class는 개념적 측면에선 동일, 실제 동작에서 차이 
+    - 타입: Value Types vs. Reference Types
+    - 할당: Copy vs. Share
+    - 저장: Stack(효율적, 빠름, 변수 등) vs. Heap(섬세함, 느림, 클래스 등)
+- Sturcture를 사용해야 하는 경우
+    - 두 object를 '같다, 다르다'로 비교해야 하는 경우 (ex. 좌표 등)
+    - Copy된 각 객체들이 독립적인 상태를 가져야 하는 경우 (각 객체가 다른 상태로 관리되어야 하는 경우)
+    - 코드에서 오브젝트의 데이터를 여러 스레드에 걸쳐 사용할 경우 (Value Type은 해당 인스턴스가 Copy된 유니크 인스턴스라 여러 스레드에 걸쳐 사용될 경우 상대적으로 안전)
+- Class를 사용해야 하는 경우
+    - 두 object의 인스턴스 자체가 같음을 확인해야 할 때 (객체 자체가 동일한지 확인)
+    - 하나의 객체가 필요하고, 여러 대상에 의해 접근되고 변경이 필요한 경우 (ex. UI Application 클래스 등)
+- 일단 Struct로 작성한 후, 필요하면 Class로 변경하는 것이 편리함 (Swift는 Struct를 선호하며, Class로 바꾸는 작업이 어렵지 않음)
+
+### 상속 (Inheritance)
+- 프로그래밍을 할 때에는 중복되는 내용을 최소하해야 함
+- class SubClassName: SuperClassName { }
+- 'A is B (A는 B에 포함)'의 명제가 성립할 경우 상속을 이용할 수 있음 
+- 상속의 규칙
+    - 자식은 한 개의 SuperClass만 상속 받음
+    - 부모는 여러 자식들을 가질 수 있음
+    - 상속의 깊이는 상관이 없음
+- override 키워드를 사용해 상속받은 메소드 재정의 가능
+- UpperCasting을 사용해 SuperClass 객체에 내용을 덮어쓰기 가능
+    - name1 = name2 as SuperClassName
+- DownCasting을 사용해 SubClass의 Property 접근 가능
+    - if let name1 = name2 as? SubClassName { }
+- 상속은 언제 하면 좋은가?
+    - 개발 철학에 따라 달라지는 문제
+    - Single Responsibility (단일 책임): 각 클래스는 하나의 고려사항만 있으면 됨 (한 클래스가 여러 책임을 가지려 하면 안됨)
+    - Type Safety (타입이 분명해야 할 때): 부모 혹은 다른 자식 클래스 간의 명확한 구분을 지어주어야 할 경우
+    - Shared Base Classes (다자녀가 존재): 기본 동작이 다양하게, 내용 자체가 다르게 구현되어야 할 때
+    - Extensibility (확장성이 필요한 경우): 개념을 보다 구체적으로 확장, 외부 앱에서 사용되어야 하는지
+    - Identity (정체를 파악하기 위해): 어떤 클래스 혹은 객체인지 정체성을 파악하기 위해
+
+### 생성자 (Initializer)
+- 상속된 자식 클래스가 부모 클래스와 다른 생성자를 가질 수 있음
+- 기본적으로 클래스에서 stored property를 새로 생성하면, 그 시점에 initialized 된 값을 주어야 함
+- 자식 클래스의 init에서 새로운 생성자들을 세팅한 후, super.init을 사용해 부모 클래스의 init을 호출할 수 있음
+- 기본적으로 instance 생성 시점에 부모와 자식 클래스의 모든 stored property에 대하여 값을 세팅해줘야 함
+- 2-phase Initialization: 클래스 생성시 2단계에 걸친 규칙
+    - phase-1: 자식 클래스의 stored property 먼저 세팅 후 부모 클래스 세팅
+    - phase-2: 부모 클래스까지 다 세팅을 해야 property와 method를 사용 가능
+    - 이런 규칙이 없다면, 생성자에서 프로퍼티가 생성도 안된 것을 호출하는 등 버그가 발생할 수 있음
+- 생성자의 파라미터 수가 많아졌을 경우, 'convenience init' 키워드를 통해 실제 사용하는 파라미터 수를 축소하여 사용 가능
+- Designated vs. Convenience Initialization
+    - 지정 생성자: DI는 자신의 부모 DI를 호출해야 함
+    - 간편 생성자: CI는 같은 클래스의 생성자를 꼭 하나 호출해야 함
+    - CI는 궁극적으로 DI를 호출해야 함
