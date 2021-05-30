@@ -106,14 +106,44 @@
                                     <action selector="close:" destination="xVi-7r-Zpv" eventType="touchUpInside" id="nAS-1V-7CL"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aum-P6-pKM">
+                                <rect key="frame" x="50" y="100" width="314" height="448.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Aum-P6-pKM" secondAttribute="height" multiplier="7:10" id="QM2-3Y-CpU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luffy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaR-U4-Vh7">
+                                <rect key="frame" x="168.5" y="595" width="77" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="30000000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekQ-oV-yfV">
+                                <rect key="frame" x="124" y="670" width="166" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="J1i-bk-3LL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ekQ-oV-yfV" firstAttribute="top" secondItem="ZaR-U4-Vh7" secondAttribute="bottom" constant="51" id="Mvy-lX-RRS"/>
+                            <constraint firstItem="Aum-P6-pKM" firstAttribute="centerX" secondItem="J1i-bk-3LL" secondAttribute="centerX" id="R3i-BK-Q2r"/>
+                            <constraint firstItem="Aum-P6-pKM" firstAttribute="top" secondItem="J1i-bk-3LL" secondAttribute="top" constant="100" id="Wlc-P2-dTd"/>
                             <constraint firstItem="J1i-bk-3LL" firstAttribute="trailing" secondItem="lFe-KB-FUx" secondAttribute="trailing" constant="20" id="baM-ad-gMm"/>
+                            <constraint firstItem="ekQ-oV-yfV" firstAttribute="centerX" secondItem="ZaR-U4-Vh7" secondAttribute="centerX" id="cib-pc-bgj"/>
                             <constraint firstItem="lFe-KB-FUx" firstAttribute="top" secondItem="J1i-bk-3LL" secondAttribute="top" constant="20" id="gm8-Zf-xkW"/>
+                            <constraint firstItem="ZaR-U4-Vh7" firstAttribute="top" secondItem="Aum-P6-pKM" secondAttribute="bottom" constant="46.5" id="oAD-FN-3nl"/>
+                            <constraint firstItem="ZaR-U4-Vh7" firstAttribute="centerX" secondItem="Aum-P6-pKM" secondAttribute="centerX" id="pQe-Lk-8Pu"/>
+                            <constraint firstItem="Aum-P6-pKM" firstAttribute="leading" secondItem="J1i-bk-3LL" secondAttribute="leading" constant="50" id="yf0-oh-9hh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ImgView" destination="Aum-P6-pKM" id="7eg-ct-5Ms"/>
+                        <outlet property="bountyLabel" destination="ekQ-oV-yfV" id="kic-df-WbJ"/>
+                        <outlet property="nameLabel" destination="ZaR-U4-Vh7" id="r4V-Qx-7Dc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qlB-Sh-7jP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
