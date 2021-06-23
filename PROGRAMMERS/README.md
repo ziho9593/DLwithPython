@@ -1,6 +1,7 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2021.06.22 [로또의 최고 순위와 최저 순위](https://ziho-world.tistory.com/36)
 - 2021.06.21 [모의고사](https://ziho-world.tistory.com/35)
 - 2020.11.20 [문자열 내 마음대로 정렬하기](https://ziho-world.tistory.com/25)
 - 2020.11.13 [약수의 합](https://ziho-world.tistory.com/24)
