@@ -1,6 +1,8 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2021.07.07 [폰켓몬](https://ziho-world.tistory.com/40)
+- 2021.07.06 [실패율](https://ziho-world.tistory.com/39)
 - 2021.06.24 [음양 더하기](https://ziho-world.tistory.com/38)
 - 2021.06.24 [신규 아이디 추천](https://ziho-world.tistory.com/37)
 - 2021.06.23 [로또의 최고 순위와 최저 순위](https://ziho-world.tistory.com/36)
