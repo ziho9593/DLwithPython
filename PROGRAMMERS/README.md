@@ -1,6 +1,7 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2021.08.03 [소수 찾기](https://ziho-world.tistory.com/44)
 - 2021.07.22 [약수의 개수와 덧셈](https://ziho-world.tistory.com/43)
 - 2021.07.21 [최대공약수와 최소공배수](https://ziho-world.tistory.com/42)
 - 2021.07.09 [숫자 문자열과 영단어](https://ziho-world.tistory.com/41)
