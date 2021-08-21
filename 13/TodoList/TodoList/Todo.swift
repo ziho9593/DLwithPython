@@ -38,22 +38,43 @@ class TodoManager {
     var todos: [Todo] = []
     
     func createTodo(detail: String, isToday: Bool) -> Todo {
-        //TODO: create로직 추가
-        return Todo(id: 1, isDone: false, detail: "2", isToday: true)
+        // [O] TODO: create로직 추가
+        let nextId = TodoManager.lastId + 1
+        TodoManager.lastId = nextId
+        return Todo(id: nextId, isDone: false, detail: detail, isToday: isToday)
     }
     
     func addTodo(_ todo: Todo) {
-        //TODO: add로직 추가
+        // [O] TODO: add 로직 추가
+        todos.append(todo)
+        
+        saveTodo()
     }
     
     func deleteTodo(_ todo: Todo) {
-        //TODO: delete 로직 추가
+        // [O] TODO: delete 로직 추가
+//        // 방법 1
+//        todos = todos.filter { existingTodo in
+//            return existingTodo.id != todo.id
+//        }
         
+        // 방법 2
+        todos = todos.filter { $0.id != todo.id }
+        
+//        // 방법 3
+//        if let idx = todos.firstIndex(of: todo) {
+//            todos.remove(at: idx)
+//        }
+        
+        saveTodo()
     }
     
     func updateTodo(_ todo: Todo) {
-        //TODO: updatee 로직 추가
+        // [O] TODO: update 로직 추가
+        guard let idx = todos.firstIndex(of: todo) else { return }
+        todos[idx].update(isDone: todo.isDone, detail: todo.detail, isToday: todo.isToday)
         
+        saveTodo()
     }
     
     func saveTodo() {
