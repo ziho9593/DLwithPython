@@ -1,6 +1,7 @@
 # PROGRAMMERS
 
 ## LEVEL 1
+- 2021.10.28 [없는 숫자 더하기](https://ziho-world.tistory.com/47)
 - 2021.09.04 [소수 만들기](https://ziho-world.tistory.com/46)
 - 2021.08.26 [비밀지도](https://ziho-world.tistory.com/45)
 - 2021.08.03 [소수 찾기](https://ziho-world.tistory.com/44)
