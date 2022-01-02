@@ -1,4 +1,6 @@
 ## Chapter 13. TODO List 앱
+<p align="center"><img src=./result.gif width="24%"> </p>
+
 - Any.do 스타일 앱 - Task Page / Settings Page
 - iOS에서 데이터 저장 방법: NSCoding, Property List, Serialization, Core Data, Realm 등
 - Codable
