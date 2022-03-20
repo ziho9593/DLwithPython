@@ -11,5 +11,5 @@
 - iOS-Basic: iOS 앱 개발 올인원 패키지 Online. (이준원)
 
 ## APS (Algorithm Problem Solving)
-- BEAKJOON: Baekjoon Online Judge 문제 풀이
+- BAEKJOON: Baekjoon Online Judge 문제 풀이
 - PROGRAMMERS: 프로그래머스 문제 풀이
