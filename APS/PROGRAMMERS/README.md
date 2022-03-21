@@ -1,6 +1,9 @@
 # PROGRAMMERS
 
-## LEVEL 1
+<details>
+
+<b><summary style="font-size:150%"> LEVEL 1 </summary></b>
+
 - 2021.10.28 [없는 숫자 더하기](https://ziho-world.tistory.com/47)
 - 2021.09.04 [소수 만들기](https://ziho-world.tistory.com/46)
 - 2021.08.26 [비밀지도](https://ziho-world.tistory.com/45)
@@ -37,6 +40,17 @@
 - 2020.08.28 [다트 게임](https://ziho-world.tistory.com/3)
 - 2020.08.27 [크레인 인형뽑기 게임](https://ziho-world.tistory.com/2)
 
-## LEVEL 2
+</details>
+
+- - -
+
+<details>
+
+<b><summary style="font-size:150%"> LEVEL 2 </summary></b>
+
 - 2020.12.01 [오픈채팅방](https://ziho-world.tistory.com/26)
 - 2020.09.01 [N진수 게임](https://ziho-world.tistory.com/5) 
+
+</details>
+
+- - -
