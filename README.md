@@ -1,6 +1,7 @@
 # TIL: Today I Learned
 
 ## Books
+- Swift-Basic: Do it! 스위프트로 아이폰 앱 만들기 입문 (송호정, 이범근)
 - PythonTextMining: 파이썬 텍스트 마이닝 완벽 가이드 (박상언, 강주영, 정석찬)
 - CTwithPython: 이것이 취업을 위한 코딩테스트다 with Python (나동빈)
 
