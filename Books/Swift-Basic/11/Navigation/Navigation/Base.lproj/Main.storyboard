@@ -113,12 +113,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yt0-da-tAk">
+                                <rect key="frame" x="105" y="138" width="66" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="확대"/>
+                                <connections>
+                                    <action selector="btnImageResize:" destination="1aZ-9l-8h6" eventType="touchUpInside" id="bbM-C9-oLs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OUl-7c-vfv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="수정화면" id="U9p-4e-PyN"/>
                     <connections>
+                        <outlet property="btnResize" destination="Yt0-da-tAk" id="NGA-hM-hcb"/>
                         <outlet property="lblWay" destination="SaK-pG-xLi" id="jTu-eb-4Hl"/>
                         <outlet property="swIsOn" destination="iol-Fm-BYa" id="dWM-VI-jMS"/>
                         <outlet property="txtMessage" destination="6Vc-ea-8AU" id="0uF-mM-6wC"/>
