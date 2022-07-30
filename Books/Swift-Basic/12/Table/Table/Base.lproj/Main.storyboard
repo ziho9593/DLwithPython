@@ -76,13 +76,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="usf-er-Ha0">
-                                <rect key="frame" x="16" y="120" width="358" height="34"/>
+                                <rect key="frame" x="16" y="277" width="358" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="miz-bS-4Au">
-                                <rect key="frame" x="165" y="177" width="61" height="42"/>
+                                <rect key="frame" x="165" y="330" width="61" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Add"/>
@@ -90,12 +90,25 @@
                                     <action selector="btnAddItem:" destination="xls-ht-cgB" eventType="touchUpInside" id="DNd-pB-hrg"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DYO-7H-XHR">
+                                <rect key="frame" x="16" y="104" width="169" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nh7-tU-Ane">
+                                <rect key="frame" x="195" y="100" width="179" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="xls-ht-cgB" id="kbn-Z7-8sd"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Ef-vF-wqu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add View" id="DTv-uV-RNH"/>
                     <connections>
+                        <outlet property="imgView" destination="DYO-7H-XHR" id="9ha-jC-tol"/>
+                        <outlet property="pickerImage" destination="nh7-tU-Ane" id="6tw-Ho-0eu"/>
                         <outlet property="txtAddItem" destination="usf-er-Ha0" id="1HR-cB-wcm"/>
                     </connections>
                 </viewController>
