@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let numOfTouches = 2
+    
     @IBOutlet var imgViewUp: UIImageView!
     @IBOutlet var imgViewDown: UIImageView!
     @IBOutlet var imgViewLeft: UIImageView!
@@ -38,18 +40,22 @@ class ViewController: UIViewController {
         
         let swipeUp = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipeUp.direction = UISwipeGestureRecognizer.Direction.up
+        swipeUp.numberOfTouchesRequired = numOfTouches
         self.view.addGestureRecognizer(swipeUp)
         
         let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipeDown.direction = UISwipeGestureRecognizer.Direction.down
+        swipeDown.numberOfTouchesRequired = numOfTouches
         self.view.addGestureRecognizer(swipeDown)
         
         let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
+        swipeLeft.numberOfTouchesRequired = numOfTouches
         self.view.addGestureRecognizer(swipeLeft)
         
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipeRight.direction = UISwipeGestureRecognizer.Direction.right
+        swipeRight	.numberOfTouchesRequired = numOfTouches
         self.view.addGestureRecognizer(swipeRight)
     }
     
