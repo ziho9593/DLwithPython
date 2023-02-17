@@ -6,6 +6,7 @@
 
 ## Lectures
 ### FastCampus
+- iOS-Basic: iOS 앱 개발 올인원 패키지
 - AppDev-Basic: 누적 다운로드 120만+ 1인 개발자와 함께하는 앱 개발 입문
 - eCommerce: 파이썬을 활용한 이커머스 데이터 분석 올인원 패키지
 
