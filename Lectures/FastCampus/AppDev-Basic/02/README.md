@@ -32,9 +32,9 @@
     - 웹페이지 호출을 통해 API를 제공함
 
 ### JSON(Javascript Object Notation)
-    - Key-Value 형태를 가진 데이터 형태
-    - 플러터의 Map과 유사함
-    - REST API 데이터에 사용
+- Key-Value 형태를 가진 데이터 형태
+- 플러터의 Map과 유사함
+- REST API 데이터에 사용
 
 ### Shared Preference
 - 데이터베이스에 저장하지 않고 내부 다른 저장송 저장할 수 있는 기능
