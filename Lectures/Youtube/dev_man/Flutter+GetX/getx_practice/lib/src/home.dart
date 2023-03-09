@@ -60,6 +60,12 @@ class Home extends StatelessWidget {
               Get.to(() => const DependencyManagePage());
             },
           ),
+          ElevatedButton(
+            child: const Text("바인딩"),
+            onPressed: () {
+              Get.toNamed("/binding");
+            },
+          ),
         ],
       )),
     );

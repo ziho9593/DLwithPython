@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_practice/src/binding/binding_page_binding.dart';
 import 'package:getx_practice/src/home.dart';
+import 'package:getx_practice/src/pages/binding.dart';
 import 'package:getx_practice/src/pages/named/first.dart';
 import 'package:getx_practice/src/pages/named/second.dart';
 import 'package:getx_practice/src/pages/next.dart';
@@ -43,6 +45,10 @@ class MyApp extends StatelessWidget {
             name: "/user/:uid",
             page: () => const UserPage(),
             transition: Transition.fadeIn),
+        GetPage(
+            name: "/binding",
+            page: () => const BindingPage(),
+            binding: BindingPageBinding()),
       ],
     );
   }
