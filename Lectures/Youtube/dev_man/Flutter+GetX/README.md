@@ -28,3 +28,12 @@
 - 반응형 상태 관리자(GetX/Obx)는 단순 상태 관리에 비해 다소 복잡하기 때문에 사용을 꺼리게 될 수도 있음
 - 하지만 반응형 상태 관리를 사용하게 되면 상태관리에 대해서 리소스를 아낄 수 있으며, 말 그대로 반응적으로 상태관리를 할 수 있음
 - 예를 들어 name이 "John"이고, 이를 "John" (name.value = "John")으로 바꾼다면, 기존 value와 동일하므로 화면상으로 바뀌는 것이 없고, Obx는 리소스를 아끼기 위해 새 값을 무시하고 다시 빌드하지 않음
+
+## 05. 종속성 관리 - 의존성 주입
+- Get이나 Provider는 Controller를 주입하고 사용하기 위해서 종속 관리가 되어야 함
+- Provider의 경우 context를 통해서 Controller를 찾을 수 있지만 GetX는 더 이상 context가 필요가 없음
+- 종속성 인스턴스 선언 방법에는 총 4가지 방식이 있음
+    - Get.put()
+    - Get.lazyPut()
+    - Get.putAsync()
+    - Get.create()
