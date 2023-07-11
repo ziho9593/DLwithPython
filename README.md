@@ -11,7 +11,3 @@
 - eCommerce: 파이썬을 활용한 이커머스 데이터 분석 올인원 패키지
 ### Youtube
 - dev-man: 유튜브 [개발하는남자](https://www.youtube.com/@dev_man) 채널의 Flutter 수업 영상을 보고 공부한 내용을 정리
-
-## APS (Algorithm Problem Solving)
-- BAEKJOON: Baekjoon Online Judge 문제 풀이
-- PROGRAMMERS: 프로그래머스 문제 풀이
