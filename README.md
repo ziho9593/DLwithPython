@@ -2,7 +2,6 @@
 
 ## Books
 - Swift-Basic: Do it! 스위프트로 아이폰 앱 만들기 입문
-- CTwithPython: 이것이 취업을 위한 코딩테스트다 with Python
 
 ## Lectures
 ### FastCampus
