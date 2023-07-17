@@ -1,6 +1,7 @@
 # TIL: Today I Learned
 
 ## Books
+- Hands-on-Django: 백엔드 개발을 위한 핸즈온 장고
 - Swift-Basic: Do it! 스위프트로 아이폰 앱 만들기 입문
 
 ## Lectures
